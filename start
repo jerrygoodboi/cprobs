@@ -1,1 +1,4 @@
 printf "#include <stdio.h> \nint main(){}" >> $1
+vim $1
+thing = $(echo $1 | sed '/\.c//')
+make $thing
