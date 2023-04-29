@@ -2,20 +2,23 @@
 //mobile
 
 
+
 #include<stdio.h>
 #include<string.h>
 
 
 int main(){
 
-char num[15];
+char num[15]; //you can use int num don't use char num[15]
 int no_call;
 float bill=250;
-mob:
-	printf("Enter your mobile number : ");
-	scanf("%s",num);
 
-	if(strlen(num)==10){
+mob:	//don't write this line
+	
+	printf("Enter your mobile number : ");
+	scanf("%s",num);	//replace %s to %d
+
+	if(strlen(num)==10){ 	//don't write this line  
 	
 		printf("Enter number of calls : ");
 		scanf("%d",&no_call);
@@ -27,12 +30,18 @@ mob:
 
 			}else if(no_call<1){
 			
-				printf("Are you dead ???\n");
+				printf("\nAre you dead ???\n\n");
 				return 0;
 			}
 
 		printf("\n\nYour number : %s\n\nBill you have to pay : %f\n\n",num,bill);
 	}
+
+	//put a } here
+	
+	//Your prgm ends here
+	
+	//Don't write the code under this line
 	else{
 
 	printf("mobile number must have 10 numbers\n");
