@@ -1,4 +1,8 @@
-printf "#include <stdio.h> \nint main(){}" >> $1
+printf "#include <stdio.h> \n#define pr printf\n#define sc scanf\nint main(){\n\n}" >> $1
 vim $1
-thing=$(echo $1 | sed 's/\.c//')
-make $thing
+echo compile ?
+read status
+if [[ $status == y ]];then
+	thing=$(echo $1 | sed 's/\.c//')
+	make $thing
+fi
