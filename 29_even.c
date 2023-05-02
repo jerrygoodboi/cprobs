@@ -1,5 +1,5 @@
 //prgm by eldhose
-//sum of diagonal elements of a metrix
+//print even numbers in metrix
 
 #include<stdio.h>
 int main(){
