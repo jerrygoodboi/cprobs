@@ -1,4 +1,5 @@
 #include <stdio.h> 
+#include <stdlib.h> 
 #define pr printf
 #define sc scanf
 void insert(int *ar,int pos,int ele,int size){
