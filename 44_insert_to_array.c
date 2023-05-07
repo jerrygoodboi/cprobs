@@ -24,22 +24,22 @@ int main(){
 		pr("Insert or EXIT (type 1 to insert, 0 to exit): ");
 		scanf("%d",&status);
 		if(!status){break;}
-			size++;
-			ar = realloc(ar, sizeof(int) * size);
-			here:{
-				pr("Enter the postion to add new element:");
-				sc("%d",&pos);
-				if((pos >= size) || (pos < 0)){
-				goto here;
-				}
-	     		}
-			pr("Enter the element:");
-			sc("%d",&ele);
-			insert(ar,pos,ele,size);	
-					
-			for(int i=0;i<size;i++){
-				pr("Element at postion %d is : %d\n",i,ar[i]);
-			}
+		size++;
+		ar = realloc(ar, sizeof(int) * size);
+here:{
+	     pr("Enter the postion to add new element:");
+	     sc("%d",&pos);
+	     if((pos >= size) || (pos < 0)){
+		     goto here;
+	     }
+     }
+     pr("Enter the element:");
+     sc("%d",&ele);
+     insert(ar,pos,ele,size);	
+
+     for(int i=0;i<size;i++){
+	     pr("Element at postion %d is : %d\n",i,ar[i]);
+     }
 	}
-		free(ar);
+	free(ar);
 }
