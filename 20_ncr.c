@@ -1,13 +1,14 @@
+//17 pgm to calculate ncr
 #include <stdio.h> 
 int fact(int num){
 	if(num==0){
 		return 1;
 	}
 	else{
-	for(int i=num-1;i>0;i--){
-	num*=i;
-	}
-	return num;
+		for(int i=num-1;i>0;i--){
+			num*=i;
+		}
+		return num;
 	}
 }
 int main(){

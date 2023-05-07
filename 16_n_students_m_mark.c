@@ -1,3 +1,4 @@
+//13 The class of n students take an annual exam in m subs*
 #include <stdio.h> 
 #define pr printf
 #define sc scanf

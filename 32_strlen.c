@@ -1,4 +1,4 @@
-//strlen
+//29 pgm that will compute length of a given char string
 #include <stdio.h> 
 int main(){
 	char string[100];

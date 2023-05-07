@@ -1,3 +1,4 @@
+//49 pgm to delete the given char from the string and display the resulting string without any space using fn and pointers
 #include <stdio.h> 
 #define pr printf
 #define sc scanf

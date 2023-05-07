@@ -1,4 +1,4 @@
-/* Sum and Average of 3 values */
+/* Pgm to print Sum and Average of 3 values */
 #include <stdio.h> 
 int main(){
 	float a,b,c;

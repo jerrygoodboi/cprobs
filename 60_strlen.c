@@ -1,4 +1,4 @@
-//Determine the length of a character string
+//47 write a pgm to Determine the length of a character string
 #include <stdio.h> 
 #define pr printf
 #define sc scanf

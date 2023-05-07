@@ -1,3 +1,4 @@
+//21 pgm to add two matrices 
 #include <stdio.h> 
 int main(){
 	int size;

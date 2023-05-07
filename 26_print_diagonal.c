@@ -1,3 +1,4 @@
+//23 pgm to find diagonal elements of a matrix
 #include <stdio.h> 
 int main(){
 	int order;

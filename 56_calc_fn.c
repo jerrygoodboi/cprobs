@@ -1,4 +1,4 @@
-//Calculator functions using functions
+//43 write a pgm to perform Calculator functions using functions
 #include <stdio.h> 
 #define pr printf
 #define sc scanf

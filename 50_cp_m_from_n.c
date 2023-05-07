@@ -1,3 +1,4 @@
+//37 wap that will copy m consecutive char from a string s1 *
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <string.h> 

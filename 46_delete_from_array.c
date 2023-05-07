@@ -1,3 +1,4 @@
+//33 pgm to delete an element from an array
 #include <stdio.h> 
 #include <stdlib.h> 
 #define pr printf

@@ -1,3 +1,4 @@
+//31 pgm to insert an element into specified position
 #include <stdio.h> 
 #include <stdlib.h> 
 #define pr printf

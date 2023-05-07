@@ -1,3 +1,4 @@
+//35 pgm to print prime no.s b/w given range
 #include <stdio.h> 
 int main(){
 	int num,flag;

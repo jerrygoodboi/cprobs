@@ -1,3 +1,5 @@
+//Pgm to compute and display sum of all integers that r divisible by 6 but not 
+// divisible by 4 and lie b/w 0 and 100 *
 #include <stdio.h> 
 int main(){
 	int j=0,sum=0;

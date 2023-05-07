@@ -1,3 +1,4 @@
+//45 pgm to find avg of each row using fn
 #include <stdio.h> 
 #define pr printf
 #define sc scanf

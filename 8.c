@@ -1,3 +1,4 @@
+//Pgm to calculate the values of square roots and squares of the no.s 0 to 100
 #include <stdio.h> 
 #include <math.h>
 int main(){

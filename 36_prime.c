@@ -1,3 +1,4 @@
+//33 pgm to check the given no is prime or not
 #include <stdio.h> 
 int main(){
 	int num,flag=0;

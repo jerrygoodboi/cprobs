@@ -1,3 +1,5 @@
+/*Write a pgm to read 2 int values m and n and decide and print whether m is a
+multiple of n*/ 
 #include <stdio.h> 
 int main(){
 	int m,n;

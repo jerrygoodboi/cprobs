@@ -1,3 +1,4 @@
+//25 pgm to print upper triangular matrix
 #include <stdio.h> 
 #define pr printf
 int main(){

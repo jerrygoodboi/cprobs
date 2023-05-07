@@ -1,3 +1,4 @@
+//Pgm to calculate Area and perimeter of a rectangle
 #include <stdio.h>
 int main(){
 	int len,wid;

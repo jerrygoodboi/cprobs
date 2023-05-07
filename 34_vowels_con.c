@@ -1,3 +1,4 @@
+//31 pgm to count the vowels and ..
 #define pr printf
 #include <stdio.h> 
 int main(){

@@ -1,3 +1,4 @@
+//19 wap to calculate 1+1/1! ..*
 #include <stdio.h> 
 #include <stdint.h>
 uint64_t fact(uint64_t num){

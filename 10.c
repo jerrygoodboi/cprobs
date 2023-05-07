@@ -1,4 +1,4 @@
-/*Print the sum of given digit*/
+/*Pgm to read a number and Print the sum of its digits*/
 #include <stdio.h> 
 int main(){
 	int num,temp=0;

@@ -1,4 +1,4 @@
-//factorial
+//15 pgm to compute and print factorial
 #include <stdio.h> 
 #define pr printf
 int main(){

@@ -1,3 +1,4 @@
+//27 pgm to print sum of diagonal elements is armstrong or not
 #include <stdio.h> 
 #include <math.h>
 #define pr printf

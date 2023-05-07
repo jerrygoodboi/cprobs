@@ -1,3 +1,4 @@
+//35 s1,s2,s3 are 3 string *
 #include <stdio.h> 
 #define pr printf
 #define sc scanf
